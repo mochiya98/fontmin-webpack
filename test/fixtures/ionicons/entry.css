@@ -1,0 +1,13 @@
+@import "~font-awesome/css/font-awesome.css";
+@import "~ionicons/dist/css/ionicons.css";
+
+.my-early-file {
+  content: "\f009";
+}
+
+.my-compressed-css{content:'\F00C'}
+.my-other-compressed-css{content:"\F00D"}
+
+.entry {
+  background: white;
+}

@@ -1,9 +1,9 @@
-const FontminPlugin = require('../../lib')
+const FontminPlugin = require('../../../lib')
 const NukecssPlugin = require('nukecss-webpack')
 
 module.exports = {
   entry: `${__dirname}/entry.js`,
-  output: {filename: 'out.js', path: `${__dirname}/dist`, publicPath: '/test/fixtures/dist/'},
+  output: {filename: 'out.js', path: `${__dirname}/dist`, publicPath: '/test/fixtures/font-awesome/dist/'},
   module: {
     rules: [
       {test: /\.(woff|woff2)(\?v=.+)?$/, use: ['file-loader']},

@@ -1,11 +1,11 @@
-const FontminPlugin = require('../../lib')
+const FontminPlugin = require('../../../lib')
 const NukecssPlugin = require('nukecss-webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   entry: `${__dirname}/entry.js`,
-  output: {filename: 'out.js', path: `${__dirname}/dist`, publicPath: '/test/fixtures/dist/'},
+  output: {filename: 'out.js', path: `${__dirname}/dist`, publicPath: '/test/fixtures/font-awesome/dist/'},
   module: {
     rules: [
       {test: /\.(woff|woff2)(\?v=.+)?$/, use: ['file-loader']},
